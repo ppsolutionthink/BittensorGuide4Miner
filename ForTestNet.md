@@ -98,7 +98,7 @@ The above command will show:
    
 Faucet is disabled on the testnet. Hence, if you don't have sufficient faucet tokens, ask the [Bittensor Discord community](https://discord.com/channels/799672011265015819/830068283314929684) for faucet tokens.
 
-
+- Send this message to require faucet test `Tao`
 ```
 o Testnet netuid: 261
 o Mainnet netuid : 44
