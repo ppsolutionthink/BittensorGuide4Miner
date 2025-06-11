@@ -9,10 +9,12 @@ by @ppsolutionthink
 - python3-pip
 
 ``` 
+(optional)
 $ alias python=python3
 ```
 
 ``` 
+(optional)
 $ python -m venv venv
 $ source venv/bin/activate
 ```
