@@ -3,6 +3,8 @@ Bittensor Guide For Miner
 
 by @ppsolutionthink
 
+
+**Bittensor Blockchain Explorer** https://taostats.io/
 ### Prerequirements
 - python3.10
 - python3.10-venv
