@@ -35,7 +35,7 @@ Output
 ```
 
 ### 2. Install your subnet template
-- <spin style="color:red">Start with Bittensor Subnet Template</spin>
+- **Start with Bittensor Subnet Template**
 https://github.com/opentensor/bittensor-subnet-template
 
 - **NOTE: Skip this step** if you already did this during local testing and development.

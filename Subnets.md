@@ -1,6 +1,6 @@
 ## Subnets
 ### SN1 - APEX
-<spin style="color:red">APEX is the first live Large Language Model application on the Bittensor network</spin>
+**APEX is the first live Large Language Model application on the Bittensor network**
 https://github.com/macrocosm-os/apex
 - Apex Chat -> http://app.macrocosmos.ai/apex
 
