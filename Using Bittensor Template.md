@@ -52,5 +52,27 @@ Install the Bittensor subnet template package:
 python -m pip install -e . # Install your subnet template package
 ```
 
+### 3. Run subnet miner and subnet validator
+**Run the subnet miner:**
 
+[./neurons/miner.py](./neurons/miner.py)
+```
+python neurons/miner.py --netuid 1  --wallet.name miner --wallet.hotkey default --logging.debug
+```
+
+Output:
+```
+>> 2023-08-08 16:58:11.223 |       INFO       | Running miner for subnet: 1 on network: wss://entrypoint-finney.opentensor.ai:443 with config: ...
+```
+
+**Run the subnet validator:**
+[./neurons/validator.py](./neurons/validator.py)
+```
+python neurons/validator.py --netuid 1  --wallet.name validator --wallet.hotkey default --logging.debug
+```
+
+Output:
+```
+>> 2023-08-08 16:58:11.223 |       INFO       | Running validator for subnet: 1 on network: wss://entrypoint-finney.opentensor.ai:443 with config: ...
+```
 
