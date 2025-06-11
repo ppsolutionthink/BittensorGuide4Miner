@@ -1,6 +1,7 @@
 # BittensorGuide4Miner
 Bittensor Guide For Miner
 
+by @ppsolutionthink
 
 ### Prerequirements
 - python3.10
@@ -45,6 +46,20 @@ $ btcli wallet list
 $ btcli wallet balance
 ```
 
+```
+                                                                     Wallet Coldkey Balance                                                                                   
+                                                                          Network: test                                                                                       
+                                                                                                                                                                              
+    Wallet Name     Coldkey Address                                    Free Balance   Staked Value   Staked (w/slippage)   Total Balance   Total (w/slippage)                 
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                 
+    jeipi           5DCUWbfucE2JjnnXRoXUHkv1GuA3nRr6USKRm2FUkLaBysZW       ‎0.0995 τ‎       ‎0.0000 τ‎              ‎0.0000 τ‎        ‎0.0995 τ‎             ‎0.0995 τ‎                 
+                                                                                                                                                                              
+                                                                                                                                                                              
+                                                                                                                                                                              
+    Total Balance                                                          ‎0.0995 τ‎       ‎0.0000 τ‎              ‎0.0000 τ‎        ‎0.0995 τ‎             ‎0.0995 τ‎                 
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                 
+
+```
 ### setup testnet
 ```
 $ btcli config set
