@@ -66,6 +66,7 @@ Output:
 ```
 
 **Run the subnet validator:**
+
 [./neurons/validator.py](./neurons/validator.py)
 ```
 python neurons/validator.py --netuid 1  --wallet.name validator --wallet.hotkey default --logging.debug
