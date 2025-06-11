@@ -8,7 +8,7 @@ https://learnbittensor.org/subnets
 ### Subnet Types
 | Subnet Type	| Tasks | Requirements |
 | ------------- | ----- | ------------ |
-| 💬 Language (e.g. Subnet 1) | LLM completions, Q&A | GPU, Python, Transformers |
+| 💬 Language | LLM completions, Q&A | GPU, Python, Transformers |
 | 🖼️ Vision/Image Gen | Image generation, captioning | GPU, Stable Diffusion, PyTorch |
 | 📦 Storage | Decentralized file storage | CPU, storage disk space |
 | 📊 Prediction | Forecasting markets, sports, etc. | Python, data science |
