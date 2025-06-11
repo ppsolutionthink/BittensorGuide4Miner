@@ -29,8 +29,18 @@
 
 **All Subnets** from Bittensor Blockchain Explorer
 https://taostats.io/subnets
+**All Subnets** from LearnBittensorOrg
+https://learnbittensor.org/subnets
 
 
+## Subnet Comparison Table
+| **Subnet**                | **Need Coding?** | **Need GPU?** | **Reward Potential**  | **Easy to Start?** | **Description**                                                                        | **Best For**                                            |
+| ------------------------- | ---------------- | ------------- | --------------------- | ------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| **SN1 – Apex (Root)**     | None             | Optional      | Low–Medium (\~1.9%)   | ✅✅✅                | Default subnet. Accepts generic prompt-response agents.                                | Beginners, testing, learning the network                |
+| **SN3 – Templar**         | Medium           | Yes           | **High (\~6.2%)**     | ✅✅                 | Text-only. Evaluates helpfulness, correctness, and relevance of LLM output.            | High-quality LLM miners (Mistral, GPTQ, LLaMA)          |
+| **SN4 – Targon**          | Medium           | Yes           | **High (\~5.8%)**     | ✅✅                 | Chat-focused. Prioritizes coherent, diverse, and contextually rich dialogue.           | Chatbots, conversational AI agents                      |
+| **SN8 – Prompt-Response** | Low              | Yes           | Medium (\~3.7%)       | ✅✅✅                | Simple prompt-response tasks using inference models. Good rewards with low complexity. | Inference mining with local or API-based models         |
+| **SN61 – RedTeam**        | None             | Optional      | Medium–High (\~0.38%) | ✅                  | Submit adversarial or creative prompts that test model robustness.                     | Prompt hackers, creative writers, AI safety enthusiasts |
 
 ### SN1 - APEX
 **APEX is the first live Large Language Model application on the Bittensor network**
