@@ -1,6 +1,7 @@
 ## Subnets
-**All Subnets** from Bittensor Blockchain Explorer
+-**All Subnets** from Bittensor Blockchain Explorer
 https://taostats.io/subnets
+
 **All Subnets** from LearnBittensorOrg
 https://learnbittensor.org/subnets
 
