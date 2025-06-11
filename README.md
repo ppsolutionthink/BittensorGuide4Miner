@@ -8,66 +8,66 @@ Bittensor Guide For Miner
 - python3-pip
 
 ``` 
-alias python=python3
+$ alias python=python3
 ```
 
 ``` 
-python -m venv venv
-source venv/bin/activate
+$ python -m venv venv
+$ source venv/bin/activate
 ```
 
 ### Install `btcli`
 ``` 
-pip install bittensor-cli
+$ pip install bittensor-cli
 ```
 
 #### check `btcli` version
 ```
-btcli --version
+$ btcli --version
 ```
 
 #### check `configuration`
 ```
-btcli config --help
+$ btcli config --help
 ```
 (~/.bittensor/config.yml)
 
 ### Create wallet
 ```
-btcli wallet create
+$ btcli wallet create
 ```
 
 ```
-btcli wallet list
+$ btcli wallet list
 ```
 
 ```
-btcli wallet balance
+$ btcli wallet balance
 ```
 
 ### setup testnet
 ```
-btcli config set
+$ btcli config set
 ```
 network : 4 -> test
 
 ### some commands
 ```
-btcli subnet list
+$ btcli subnet list
 ```
 
 ```
-btcli subnet show
+$ btcli subnet show
 ```
 
 ### registering
 ```
-btcli subnet register
+$ btcli subnet register
 ```
 
 
-`hotkey`: is for mining and validation
-`coldkey`: is for everything else
+- `hotkey`: is for mining and validation
+- `coldkey`: is for everything else
 
 
 
