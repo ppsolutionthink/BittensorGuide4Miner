@@ -26,6 +26,26 @@ https://learnbittensor.org/subnets
 | **SN8 – Prompt-Response** | Low              | Yes           | Medium (\~3.7%)       | ✅✅✅                | Simple prompt-response tasks using inference models. Good rewards with low complexity. | Inference mining with local or API-based models         |
 | **SN61 – RedTeam**        | None             | Optional      | Medium–High (\~0.38%) | ✅                  | Submit adversarial or creative prompts that test model robustness.                     | Prompt hackers, creative writers, AI safety enthusiasts |
 
+
+| **Your Goal**                                      | **Best Subnet** | **Why**                                                        |
+| -------------------------------------------------- | --------------- | -------------------------------------------------------------- |
+| 🌱 Just starting out                               | **SN1 or SN8**  | Very easy setup, tolerant scoring, low risk                    |
+| ⚡ Want high rewards                                | **SN3 or SN4**  | Requires quality output from strong models, but high emissions |
+| 🧠 Love prompt engineering (no code)               | **SN61**        | Rewards clever, manipulative, or adversarial prompts           |
+| 🧪 Running models via API or local inference       | **SN8 or SN4**  | Flexible setups, minimal code needed                           |
+| 🤖 Building chatbot-like systems                   | **SN4**         | Focused on dialog realism and coherence                        |
+| 🧪 Exploring model safety, jailbreaking, AI ethics | **SN61**        | Unique niche with growing validator support                    |
+
+
+| Subnet | Emissions | Effort   | Notes                                       |
+| ------ | --------- | -------- | ------------------------------------------- |
+| SN1    | Low       | Very Low | Great for experimentation                   |
+| SN8    | Medium    | Low      | Balanced reward and ease                    |
+| SN61   | Med–High  | Medium   | High return if you're creative              |
+| SN4    | High      | Medium   | Best for conversational AI                  |
+| SN3    | High      | High     | High bar for helpful and relevant responses |
+
+
 ### SN1 - APEX (Root)
 **APEX is the first live Large Language Model application on the Bittensor network**
 https://github.com/macrocosm-os/apex
