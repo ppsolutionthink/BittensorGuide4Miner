@@ -247,3 +247,6 @@ btcli root weights --subtensor.network test
 ## 10. Stopping your nodes
 
 To stop your nodes, press CTRL + C in the terminal where the nodes are running.
+
+
+

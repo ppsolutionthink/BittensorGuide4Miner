@@ -2,7 +2,7 @@
 
 > Note: not all subnets are operating on testnet.
 
-**Mainnet ------ Testnet**
+### Mainnet, Testnet
 ------------------------
  ` 1      61` -- apex
  ` 2     118` -- omron
@@ -69,3 +69,25 @@
  ` 96    257` -- flock-off
  ` 105   271` -- soundsright
  ` 113   347` -- taonado
+
+ ### Functional on testnet
+ ` na          12` -- storage
+ ` na          25` -- alchemy
+ ` na          31` -- audio
+ ` na          38` -- llm-defender
+ ` na          74` -- bitaudit
+ ` na          77` -- daasi
+ ` na         146` -- insights
+ ` na         192` -- idp
+ ` na         197` -- sybilla **note:** see below
+ ` na         203` -- palaidn
+ ` na         213` -- genki-dama
+ ` na         233` -- automata
+ ` na         261` -- score vision (no separate channel, see <#1271486854830755981> )
+ ` na         246` -- brainlock
+ ` na         247` -- synth-subnet
+ ` na         248` -- woofai
+ ` na         250` -- finest-data
+ ` na         253` -- voiceguard
+ ` na         272` -- oracle
+ ` na         334` -- agents4all

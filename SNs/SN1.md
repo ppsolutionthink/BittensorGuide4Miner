@@ -25,3 +25,6 @@ You can use wandb to see how successful your miner would be on mainnet, an examp
 > The openai miner provided in this repo is not intended to be run on mainnet!
 >
 > If you run the base miner on mainnet, you will not earn anything! It is provided as an example to help you build your own custom mining operation!
+
+
+> Installation also works smoothly on WSL Ubuntu with sufficient memory and space (**16GB RAM, 60.2GB free disk space**). 
