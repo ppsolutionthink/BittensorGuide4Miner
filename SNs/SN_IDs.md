@@ -2,6 +2,11 @@
 
 > Note: not all subnets are operating on testnet.
 
+```
+btcli subnet list --subtensor.network finney | grep -i "red"
+```
+> MAINNET -> finney, TESTNET -> test
+
 ### Mainnet, Testnet
 ------------------------
  ` 1      61` -- apex

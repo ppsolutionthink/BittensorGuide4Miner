@@ -107,6 +107,16 @@ o Coldkey : 5DCUWbfucE2JjnnXRoXUHkv1GuA3nRr6USKRm2FUkLaBysZW
 o Do you have your mnemonic phrase for the coldkey written down in a safe place? (Y/N): Y
 
 ```
+
+**transfer**
+```
+btcli wallet transfer \
+    --wallet.name btwall_1 \
+    --wallet.hotkey bthotkey_1 \
+    --dest 5EqHaiQyxoMKoNAh7aJAXTvUwdLmvaDgnJzvoefdUyoECxY2 \
+    --amount 0.09 \
+    --subtensor.network test
+```
 ## 5. Purchase a slot
 
 Using the test TAO from the previous step you can register your subnet on the testnet. This will create a new subnet on the testnet and give you the owner permissions to it. 
