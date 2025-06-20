@@ -1,13 +1,13 @@
 
 # Submission
-## Install Docker(Ubuntu)
+## 1. Install Docker(Ubuntu)
 ``` bash
 # Uninstall old versions:
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
 # Add Docker's official GPG key:
 sudo apt-get update
-sudo apt-get install ca-certificates curl
+sudo apt-get install ca-certificates curl -y
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
@@ -20,14 +20,14 @@ sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 
 # Install docker engine, CLI, containerd, buildx, and compose:
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
 
-```
+``` bash
 dockerd --version
 ```
 Output:
-```
+``` bash
 Docker version 28.2.2, build 45873be
 ```
 
@@ -68,19 +68,31 @@ Log in to Docker Hub:
 
 **Run the following command to log in to Docker Hub and enter your Docker Hub credentials:**
 ``` bash
-docker login
+sudo docker login
 ```
+
+Output:
+``` bash
+...
+Your one-time device confirmation code is: SVTP-HZJD
+Press ENTER to open your browser or submit your device code here: https://login.docker.com/activate
+...
+```
+
+> Press ENTER to open your browser or submit your device code here: https://login.docker.com/activate
+
+
 ----------
 
-## Build and Publish Docker Images
-### 1. Build the Docker Image
+## 2. Build and Publish Docker Images
+### 1) Build the Docker Image
 **Navigate to the directory containing your `Dockerfile`:**
 ``` bash
 cd /path/to/your/project
 ```
 Example:
 ``` bash
-cd redteam_core/miner/commits/solution1
+cd redteam_core/miner/commits/ab_sniffer_v1
 ```
 **Build the Docker image:**
 ``` bash
@@ -91,10 +103,10 @@ docker build -t <image_name>:<tag> .
 
 Example:
 ``` bash
-docker build -t challenge_name:0.0.1 .
+sudo docker build -t ab_sniffer_v1:0.0.1 .
 ```
 
-### 2. Tag the Docker Image
+### 2) Tag the Docker Image
 **Tag your image for Docker Hub by adding your Docker Hub username:**
 ``` bash
 docker tag <image_name>:<tag> <dockerhub_username>/<repository_name>:<tag>
@@ -105,10 +117,10 @@ docker tag <image_name>:<tag> <dockerhub_username>/<repository_name>:<tag>
 
 Example:
 ``` bash
-docker tag challenge_name:0.0.1 redteam/challenge_name:0.0.1
+sudo docker tag ab_sniffer_v1:0.0.1 ppsolutionthink/ab_sniffer_v1:0.0.1
 ```
 
-### 3. Push the Docker Image to Docker Hub
+### 3) Push the Docker Image to Docker Hub
 **Push the tagged image to Docker Hub:**
 ``` bash
 docker push <dockerhub_username>/<repository_name>:<tag>
@@ -116,19 +128,30 @@ docker push <dockerhub_username>/<repository_name>:<tag>
 Example:
 
 ``` bash
-docker push redteam/challenge_name:0.0.1
+sudo docker push ppsolutionthink/ab_sniffer_v1:0.0.1
 ```
 
-### 4. Retrieve the SHA256 Digest
+### 4) Retrieve the SHA256 Digest
 **After pushing the image, retrieve the digest by running:**
 ``` bash
 docker inspect --format='{{index .RepoDigests 0}}' <dockerhub_username>/<repository_name>:<tag>
 ```
 Example:
 ``` bash
-docker inspect --format='{{index .RepoDigests 0}}' redteam/challenge_name:0.0.1
+sudo docker inspect --format='{{index .RepoDigests 0}}' ppsolutionthink/ab_sniffer_v1:0.0.1
 ```
 
-### 5. Verify the Image on Docker Hub
+Output:
+``` bash
+ppsolutionthink/ab_sniffer_v1@sha256:c0a18beaa141e42823affb32b5b0a439c860302991de81cb44370573de5952fc
+```
+### 5) Verify the Image on Docker Hub
 Log in to Docker Hub and navigate to your repository to ensure the image has been successfully uploaded.
 
+-------
+## 3. Setup for miner
+### Update `active_commit.yaml`
+Go to the `neurons/miner/active_commit.yaml` file and update it with the new image tag:
+``` bash
+ppsolutionthink/ab_sniffer_v1@sha256:c0a18beaa141e42823affb32b5b0a439c860302991de81cb44370573de5952fc
+```
