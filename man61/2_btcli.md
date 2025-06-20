@@ -139,3 +139,62 @@ $ btcli subnet register
 
 
 
+--------------
+## Favorite
+``` bash
+btcli subnets list
+```
+
+``` bash
+btcli subnets show
+```
+
+``` bash
+btcli subnets metagraph
+```
+
+Output
+```
+...
+Subnet 61: RedTeam
+  Owner: 5ECEsYL82fbXx9KfTZy7G2KXSurnScciJyAVMHZjekc8jUbn (Owner61)
+  Rate: 0.0042 τ/ر
+  Emission: τ 0.0000
+  TAO Pool: τ 2.65k
+  Alpha Pool: 632.15k ر
+  Tempo: 85/360
+  Registration cost (recycled): τ 0.0005
+```
+
+``` bash
+btcli subnets price
+```
+
+``` bash
+btcli subnets burn-cost
+```
+
+``` bash
+btcli subnets burn_cost
+```
+
+``` bash
+btcli stake add
+```
+
+``` bash
+btcli stake list
+```
+
+``` bash
+btcli stake transfer
+```
+
+``` bash
+```
+
+``` bash
+```
+
+``` bash
+```
