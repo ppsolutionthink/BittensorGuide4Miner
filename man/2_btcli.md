@@ -122,7 +122,7 @@ $ btcli wallet overview
 
 
 
-## 3. Register (Try later)
+## 3. Register
 ```
 $ btcli subnet show
 ```
