@@ -39,3 +39,4 @@ Why Does Bittensor Require Staking?
 - Analyze validator feedback.
 - Improve response structure, speed, and correctness.
 - Stake more TAO for higher influence (optional).
+
